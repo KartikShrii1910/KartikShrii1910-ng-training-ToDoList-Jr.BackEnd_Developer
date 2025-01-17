@@ -1,0 +1,36 @@
+form {
+    padding-top: 20px;
+  }
+  
+  .task-form {
+    display: grid;
+    gap: 16px;
+    /* Space between rows */
+  
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+  
+    mat-form-field {
+      width: 100%;
+      display: flex;
+      align-items: center;
+  
+      input,
+      textarea,
+      mat-select {
+        height: 24px;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+  
+      textarea {
+        resize: none;
+        /* Prevent resizing for a consistent look */
+        height: 24px;
+        /* Match height of input fields */
+      }
+    }
+  }
