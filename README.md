@@ -279,8 +279,3 @@ This project is a web-based Todo Task Management application. It allows users to
    ```
 5. Open a pull request.
 
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
